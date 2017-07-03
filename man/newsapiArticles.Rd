@@ -4,7 +4,7 @@
 \alias{newsapiArticles}
 \title{newsapiArticles}
 \usage{
-newsapiArticles(key = Sys.getenv("NEWSAPI_KEY"), source, sortBy = "")
+newsapiArticles(key = Sys.getenv("NEWSAPI_KEY"), source, sortBy = "top")
 }
 \arguments{
 \item{key}{(required) - Your API key. Alternatively you can provide this via the X-Api-Key HTTP header.}

@@ -10,7 +10,7 @@ newsapiContent(url, tag)
 \item{url}{(required) the url of the page from which to get the content}
 
 \item{tag}{(required) the html tag from which to get the content
-e.g. "p" passed to \code{\link[httr]{GET}}.}
+e.g. "p" passed to \code{\link[xml2]{read_html}}.}
 }
 \description{
 A function to retrieve articles from newsapi.org

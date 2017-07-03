@@ -23,5 +23,5 @@ newsapiContent <- function(url, tag) {
   text$text <- as.character(text$text)
   token <- tidytext::unnest_tokens(text, word, text) %>%
     dplyr::anti_join(tidytext::stop_words, by = "word")
-  return(token)
+  return(token$word)
 }
