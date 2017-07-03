@@ -22,7 +22,7 @@
 newsapiArticles <- function(
   key = Sys.getenv("NEWSAPI_KEY"),
   source,
-  sortBy = ""
+  sortBy = "top"
 ) {
 
   this_url <- paste0("https://newsapi.org/v1/articles?",
