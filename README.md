@@ -13,3 +13,7 @@ See what sources there are with:
 Get the articles with:
 
     newsapiArticles()
+
+Get clean html content with:
+
+    newsapiContent()

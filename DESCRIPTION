@@ -1,10 +1,15 @@
 Package: newsR
-Title: What the Package Does (one line, title case)
+Title: Collect News Using Newsapi.org 
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Authors@R: person("Roman", "Popat", email = "roman@legibledata.org", role = c("aut", "cre"))
+Description: A set of functions to query the newsapi.org and then get clean text from the news pages. 
 Depends: R (>= 3.3.0)
-Imports: jsonlite
+Imports: 
+  jsonlite, 
+  tidytext, 
+  rvest, 
+  dplyr,
+  xml2
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

@@ -23,7 +23,7 @@ Use \code{\link{newsapiSources}} endpoint to locate this or use the sources inde
                             "popular" -    Requests a list of the source's current most popular or currently trending headlines.}
 }
 \description{
-newsapiArticles
+A function to retrieve articles from newsapi.org
 }
 \keyword{api}
 \keyword{news,}
